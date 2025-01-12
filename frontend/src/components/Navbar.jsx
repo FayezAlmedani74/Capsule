@@ -19,6 +19,9 @@ const Navbar = () => {
         >
           Time Capsule
         </Typography>
+        <Button color="inherit" onClick={() => navigate("/capsule")}>
+          Enter PromoCode
+        </Button>
         <Button color="inherit" onClick={() => navigate("/create-capsule")}>
           Create Capsule
         </Button>
