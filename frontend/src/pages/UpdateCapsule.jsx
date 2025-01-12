@@ -38,18 +38,20 @@ const UpdateCapsule = () => {
   }, [id]);
 
   const handleUpdate = async () => {
-    const formData = new FormData();
-    formData.append("title", title);
-    formData.append("content", content);
-    formData.append("releaseDate", releaseDate);
+    const payload = {
+      title,
+      content,
+      releaseDate,
+    };
 
     try {
       const response = await fetch(`/api/capsules/${id}`, {
         method: "PUT",
         headers: {
+          "Content-Type": "application/json",
           Authorization: `Bearer ${localStorage.getItem("token")}`,
         },
-        body: formData,
+        body: JSON.stringify(payload),
       });
 
       if (response.ok) {
