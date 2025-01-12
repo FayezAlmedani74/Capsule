@@ -1,0 +1,114 @@
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-10T14:05:37.441Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-10T14:05:37.509Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-10T14:06:54.817Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-10T14:06:54.869Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-10T14:08:15.920Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-10T14:08:15.972Z"}
+{"level":"error","message":"Error creating capsule: CapsuleModel is not a constructor","stack":"TypeError: CapsuleModel is not a constructor\n    at CapsuleService.create (D:\\Capsule\\backend\\api\\services\\capsule.service.js:8:23)\n    at D:\\Capsule\\backend\\api\\controllers\\capsule.controller.js:14:40\n    at D:\\Capsule\\backend\\api\\middlewares\\async.middleware.js:2:19\n    at Layer.handle [as handle_request] (D:\\Capsule\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Capsule\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Capsule\\backend\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Capsule\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Capsule\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Capsule\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Capsule\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)","timestamp":"2025-01-10T15:52:23.897Z"}
+{"level":"error","timestamp":"2025-01-10T15:52:23.908Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-10T15:54:11.147Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-10T15:54:11.209Z"}
+{"isOperational":true,"level":"error","status":"fail","statusCode":404,"timestamp":"2025-01-10T16:03:48.619Z"}
+{"isOperational":true,"level":"error","status":"fail","statusCode":404,"timestamp":"2025-01-10T16:05:20.029Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-10T16:06:41.068Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-10T16:06:41.134Z"}
+{"level":"error","timestamp":"2025-01-10T16:12:01.271Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-10T16:12:11.621Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-10T16:12:11.683Z"}
+{"level":"info","message":"Capsule deleted successfully: 678144510e553c5cb27378cf","timestamp":"2025-01-10T16:12:27.739Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-10T16:17:43.004Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-10T16:17:43.094Z"}
+{"level":"warn","message":"Capsule not found with link: 45dkf59vzhv","timestamp":"2025-01-10T16:18:27.350Z"}
+{"level":"warn","message":"Capsule not found with link: 45dkf59vzhv","timestamp":"2025-01-10T16:18:39.625Z"}
+{"level":"info","message":"Capsule retrieved by link: 45dkf59vzhv","timestamp":"2025-01-10T16:19:19.560Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-11T14:16:48.450Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-11T14:16:48.476Z"}
+{"level":"info","message":"Capsule retrieved by link: 45dkf59vzhv","timestamp":"2025-01-11T14:20:35.253Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T07:11:23.593Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T07:11:23.651Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T07:26:12.775Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T07:26:12.814Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T07:35:04.512Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T07:35:04.528Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T08:05:23.375Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T08:05:23.398Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T08:07:44.015Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T08:07:44.032Z"}
+{"isOperational":true,"level":"error","message":"Login error: Invalid credentials","stack":"Error: Invalid credentials\n    at AuthService.login (D:\\Capsule\\backend\\api\\services\\auth.service.js:33:15)\n    at async D:\\Capsule\\backend\\api\\controllers\\auth.controller.js:22:27","status":"fail","statusCode":400,"timestamp":"2025-01-12T08:09:48.982Z"}
+{"isOperational":true,"level":"error","status":"fail","statusCode":400,"timestamp":"2025-01-12T08:09:48.985Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T08:26:07.132Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T08:26:07.149Z"}
+{"isOperational":true,"level":"error","status":"fail","statusCode":400,"timestamp":"2025-01-12T08:30:20.139Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T08:59:28.430Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T08:59:28.462Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T08:59:51.464Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T08:59:51.484Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T09:00:29.625Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T09:00:29.634Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T09:05:11.180Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T10:25:55.392Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T10:25:55.411Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:26:33.631Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:26:33.638Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:27:04.415Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:27:04.428Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:27:18.915Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:27:18.928Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:27:46.433Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:27:46.467Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:27:59.127Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:27:59.137Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:28:33.607Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:28:33.614Z"}
+{"isOperational":true,"level":"error","status":"fail","statusCode":400,"timestamp":"2025-01-12T10:31:57.995Z"}
+{"isOperational":true,"level":"error","status":"fail","statusCode":400,"timestamp":"2025-01-12T10:32:19.003Z"}
+{"isOperational":true,"level":"error","message":"Registration error: Email already exists","stack":"Error: Email already exists\n    at AuthService.register (D:\\Capsule\\backend\\api\\services\\auth.service.js:10:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async D:\\Capsule\\backend\\api\\controllers\\auth.controller.js:6:27","status":"fail","statusCode":400,"timestamp":"2025-01-12T10:33:58.964Z"}
+{"isOperational":true,"level":"error","status":"fail","statusCode":400,"timestamp":"2025-01-12T10:33:58.968Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:38:16.031Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T10:38:24.175Z"}
+{"level":"info","message":"Capsule deleted successfully: 67839ceaaae5036bc78af111","timestamp":"2025-01-12T10:46:48.894Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T11:21:14.567Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T11:21:14.602Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T11:25:23.168Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T11:25:23.188Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T11:26:32.087Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T11:26:32.124Z"}
+{"level":"error","message":"Error creating capsule: image is not defined","stack":"ReferenceError: image is not defined\n    at CapsuleService.create (D:\\Capsule\\backend\\api\\services\\capsule.service.js:10:9)\n    at D:\\Capsule\\backend\\api\\controllers\\capsule.controller.js:14:40\n    at D:\\Capsule\\backend\\api\\middlewares\\async.middleware.js:2:19\n    at Layer.handle [as handle_request] (D:\\Capsule\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Capsule\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at done (D:\\Capsule\\backend\\node_modules\\multer\\lib\\make-middleware.js:45:7)\n    at indicateDone (D:\\Capsule\\backend\\node_modules\\multer\\lib\\make-middleware.js:49:68)\n    at D:\\Capsule\\backend\\node_modules\\multer\\lib\\make-middleware.js:155:11\n    at WriteStream.<anonymous> (D:\\Capsule\\backend\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:530:35)","timestamp":"2025-01-12T11:26:59.560Z"}
+{"level":"error","timestamp":"2025-01-12T11:26:59.569Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T11:27:57.121Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T11:27:57.172Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T11:37:04.338Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T11:37:04.394Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T11:45:27.261Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T11:45:27.325Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T11:45:57.380Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T11:45:57.470Z"}
+{"level":"info","message":"Capsule deleted successfully: 6783a973fa3db3a28fb5de8c","timestamp":"2025-01-12T12:04:55.571Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T12:11:23.354Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T12:11:23.410Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T12:15:39.136Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T12:15:39.166Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T12:38:27.699Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T12:38:27.735Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T12:42:41.020Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T12:42:41.111Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T12:48:59.413Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T12:48:59.479Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T12:48:59.564Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T12:50:03.134Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T12:50:03.177Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T12:50:03.253Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T12:50:24.759Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T12:51:12.146Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T12:51:12.177Z"}
+{"level":"error","name":"UnauthorizedError","statusCode":401,"timestamp":"2025-01-12T12:51:26.223Z"}
+{"level":"error","timestamp":"2025-01-12T12:51:43.454Z"}
+{"level":"error","timestamp":"2025-01-12T12:51:43.474Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T12:53:23.337Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T12:53:23.396Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T12:56:23.164Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T12:56:23.233Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T12:56:35.191Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T12:56:35.332Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2025-01-12T12:56:48.528Z"}
+{"level":"info","message":"MongoDB Connected Successfully","timestamp":"2025-01-12T12:56:48.607Z"}
