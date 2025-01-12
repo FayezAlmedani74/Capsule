@@ -8,6 +8,7 @@ import Capsules from "./pages/Capsules";
 import CreateCapsule from "./pages/CreateCapsule";
 import UpdateCapsule from "./pages/UpdateCapsule";
 import ProtectedRoute from "./components/ProtectedRoute";
+import PromoCode from "./pages/PropmoCode";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/capsule" element={<PromoCode />} />
           <Route
             path="/capsules"
             element={

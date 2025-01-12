@@ -13,7 +13,6 @@ import { useNavigate } from "react-router-dom";
 const CapsuleCard = ({ capsule, onDelete, onRelease }) => {
   const navigate = useNavigate();
   const isReleased = new Date(capsule.releaseDate) <= new Date();
-  console.log(capsule.image);
 
   const handleUpdate = () => {
     navigate(`/update-capsule/${capsule._id}`);

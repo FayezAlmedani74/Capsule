@@ -13,12 +13,11 @@ router
   .post(capsuleController.createCapsule)
   .get(capsuleController.getMyCapsules);
 
+router.get("/shared/:link", capsuleController.getCapsuleByLink);
 router
   .route("/:id")
   .get(capsuleController.getCapsuleById)
   .put(capsuleController.updateCapsule)
   .delete(capsuleController.deleteCapsule);
-
-router.get("/shared/:link", capsuleController.getCapsuleByLink);
 
 module.exports = router;

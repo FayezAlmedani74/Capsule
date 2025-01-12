@@ -72,6 +72,7 @@ exports.deleteCapsule = asyncHandler(async (req, res) => {
 });
 
 exports.getCapsuleByLink = asyncHandler(async (req, res) => {
+  console.log("Received link:", req.params.link);
   const capsule = await capsuleService.findByLink(req.params.link);
   if (!capsule) {
     return res.status(404).json({
